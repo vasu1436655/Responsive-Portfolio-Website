@@ -1094,10 +1094,10 @@ footer {
         padding-left: 22%;
     }
     .projects{
-        height: 1100px;
+        height: 1150px;
     }
     .projects h3{
-        padding-left: 42%;
+        padding-left: 40%;
     }
     .project1{
         width: 100%;
@@ -1115,7 +1115,7 @@ footer {
         margin-left: 40px;
     }
     .project h4{
-        font-size: 22px;
+        font-size: 25px;
     }
     .project h5 span{
         font-size: 10px;
