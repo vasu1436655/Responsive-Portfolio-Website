@@ -11,10 +11,12 @@
     background-color: black;
     z-index: 1000;
     box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.575);
+    width: 100%;
 }
 nav{
     background-color: black;
     border: 1px solid rgba(83, 82, 82, 0.377);
+    width: 100%;
 }
 nav ul{
     width: 100%;
@@ -234,6 +236,10 @@ h6{
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 2%;
+}
+.about-desc h4{
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 .about-desc p{
     margin-top: 4%;
@@ -710,7 +716,7 @@ footer {
     .about{
         flex-direction: column;
         height: fit-content;
-        height: 400px;
+        /* height: 400px; */
     }
     .about-dp{
         margin-left: 35%;
@@ -728,7 +734,7 @@ footer {
     }
     .skill h1{
         font-size: 30px;
-        margin-left: 12%;
+        margin-left: 15%;
     }
     .fullstack-img{
         display: none;
@@ -738,7 +744,7 @@ footer {
         margin-left: -20px;
     }
     .projects{
-        height: 1000px;
+        height: 1300px;
     }
     .project{
         flex-direction: column;
@@ -746,13 +752,13 @@ footer {
         row-gap: 3%;
     }
     .project1{
-        width: 80%;
+        width: 50%;
     }
     .project2{
-        width: 80%;
+        width: 50%;
     }
     .project3{
-        width: 80%;
+        width: 50%;
     }
     
 }
@@ -896,6 +902,9 @@ footer {
     .projects{
         height: 1200px;
     }
+    body{
+        background-color: black;
+    }
 }
 @media(max-width:440px){
     .sidebar{
@@ -979,4 +988,68 @@ footer {
         margin: 0px;
     }
 }
+@media(max-width:350px){
+    .animated-text span{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    body{
+        background-color: black;
+    }
+    .body{
+        height: 900px;
+        padding-top: 120px;
+    }
+    .photo{
+       right: 20px;
+    }
+    .desc h6{
+        font-size: 13px;
+    }
+    .main-bar{
+        width: 90%;
+    }
+    .skills{
+        padding: 2% 2%;
+        width: 100%;
+    }
+    .skill{
+        width: 95%;
+    }
+    .projects{
+        height: 1200px;
+    }
+    .project1{
+        width: 100%;
+        height: fit-content;
+    }
+    .project2{
+        width: 100%;
+        height: fit-content;
+    }
+    .project3{
+        width: 100%;
+        height: fit-content;
+    }
+    .project h4{
+        font-size: 23px;
+    }
+    .project h5 span{
+        font-size: 10px;
+    }
+    .contacts{
+        flex-direction: column;
+        height: 600px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 29px;
+    }
+    .inputs{
+        width: 100%;
+        margin-top: 20px;
+    }
 
+}
