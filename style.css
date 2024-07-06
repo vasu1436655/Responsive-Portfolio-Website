@@ -848,6 +848,10 @@ footer {
 }
 
 @media (max-width:560px) {
+    .sidebar li a{
+        padding-left: 10px;
+        font-size: 15px;
+    }
     .photo{
         margin-top: 69%;
         height:30%;
@@ -930,12 +934,12 @@ footer {
 }
 @media(max-width:440px){
     .sidebar{
-        width: 70%;
+        width: 60%;
         background-color: transparent;
     }
     .sidebar li a{
-        margin-left: 20px;
-        font-size: 25px;
+        margin-left: 10px;
+        font-size: 18px;
         padding-bottom: 10px;
     }
     .body{
@@ -1061,13 +1065,17 @@ footer {
         margin-top: -100px;
     }
     .photo{
-       right: 40px;
-       top: 50px;
+       right: 38px;
+       top: 55px;
     }
     .about-dp{
         width: 150px;
         height: 150px;
-        margin-left: 25%;
+        margin-left: 29%;
+        margin-bottom: 10px;
+    }
+    .about-desc p, span{
+        font-size: 12px;
     }
     .desc h6{
         font-size: 13px;
@@ -1115,6 +1123,9 @@ footer {
     .contacts{
         flex-direction: column;
         height: 600px;
+    }
+    .contacts h3{
+        font-size: 15px;
     }
     .contact{
         width: 100%;
