@@ -968,11 +968,29 @@ footer {
         font-size: 30px;
         margin-left: -29px;
     }
+    .projects h3{ 
+        padding-left: 130px;
+    }
+    .project1{
+        width: 80%;
+        margin-right: 50px;
+    }
+    .project2{
+        width: 80%;
+        margin-right: 50px;
+    }
+    .project3{
+        width: 80%;
+        margin-right: 50px;
+    }
     .projects{
         height: 1500px;
     }
     .project h4{
-        font-size: 23px;
+        font-size: 20px;
+    }
+    .project h5 span{
+        font-size: 12px;
     }
     .contacts{
         padding: 2% 2%;
@@ -987,8 +1005,22 @@ footer {
         width: 100%;
         margin: 0px;
     }
+    .contacts{
+        flex-direction: column;
+        height: 600px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .contact h2{
+        font-size: 29px;
+    }
+    .inputs{
+        width: 100%;
+        margin-top: 20px;
+    }
 }
-@media(max-width:350px){
+@media(max-width:380px){
     .animated-text span{
         font-size: 22px;
         padding-bottom: 5px;
@@ -1032,7 +1064,7 @@ footer {
         height: fit-content;
     }
     .project h4{
-        font-size: 23px;
+        font-size: 25px;
     }
     .project h5 span{
         font-size: 10px;
