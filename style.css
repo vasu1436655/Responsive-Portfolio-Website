@@ -1039,7 +1039,7 @@ footer {
         font-size: 13px;
     }
     .main-bar{
-        width: 90%;
+        width: 100%;
     }
     .skills{
         padding: 2% 2%;
@@ -1054,14 +1054,17 @@ footer {
     .project1{
         width: 100%;
         height: fit-content;
+        margin-left: 40px;
     }
     .project2{
         width: 100%;
         height: fit-content;
+        margin-left: 40px;
     }
     .project3{
         width: 100%;
         height: fit-content;
+        margin-left: 40px;
     }
     .project h4{
         font-size: 25px;
