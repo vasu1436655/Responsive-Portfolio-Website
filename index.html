@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <p onclick="hidesidebar()"><i class="fa-solid fa-x"></i></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact</a></li>
+        </ul>
+        <ul class="main-bar">
+            <li class="cedarville-cursive-regular">Vasu</li>
+            <li class="hideonmobile"><a href="#about">About</a></li>
+            <li class="hideonmobile"><a href="#skills">Skills</a></li>            
+            <li class="hideonmobile"><a href="#projects">Projects</a></li>
+            <li class="hideonmobile"><a href="#contacts">Contact</a></li>
+            <li class="menu-button" onclick="showsidebar()"><i class="fa-solid fa-bars"></i></li>
+        </ul>
+    </nav>
+    <!-- body  -->
+    <div class="body">
+        <div class="header-text">
+            <p>Hello, It's Me</p>
+            <h1>S<span>rinivas Sanam</span></h1>
+            <div class="animated-text">
+                I'm a <span></span>
+            </div>
+            <div class="desc">
+            <h6>
+                As a dedicated full stack Python web developer, I am passionate about creating seamless and efficient web solutions that bring innovative ideas to life. With a solid foundation in both front-end and back-end development, I am committed to continuous learning and delivering high-quality code.Let me help you build robust and scalable applications tailored to meet your specific needs.</h6>
+            </div>
+            <div class="links">
+                <a href="https://github.com/vasu1436655" target="_blank"><img src="https://th.bing.com/th/id/OIP.eoZPB2gfGH-1ckaL_JSZdwAAAA?rs=1&pid=ImgDetMain" alt="github"></a>
+                <a href="https://www.linkedin.com/in/vasu-s-7653b1228/" target="blank"><img src="https://th.bing.com/th/id/OIP.QAxeJ33Fyfd28DXfzIQ95QAAAA?rs=1&pid=ImgDetMain" alt="linkedin"></a>
+                <a href="www.gmail.com"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/2d/ea/79/2dea79b7-6fe0-c2eb-cead-ca8369d99670/logo_gmail_2020q4_color-0-1x_U007emarketing-0-0-0-6-0-0-0-0-85-220-0.png/256x256bb.jpg" alt="gmail"></a>
+            </div>
+        </div>
+        <div class="btn">
+        <button class="btn-cv">Download CV <i class="fa-solid fa-download"></i></button>
+        </div>
+        <div class="photo">
+            <img class="dp" src="./image.png" alt="dp">
+            <img class="bg" src="./bg-img.png" alt="bg">
+        </div>
+    </div>
+    <!-- about  -->
+    <div class="about" id="about">
+        <div class="about-dp">
+            <img src="./about-dp.jpeg" alt="about-img">
+        </div>
+        <div class="about-desc">
+            <h2>About Me</h2>
+            <h4>
+                Hi, I'm Srinivas, a recent BTech graduate with a passion for full stack Python development. Having completed my training, I'm eager to apply my skills in real-world projects and contribute to innovative solutions. As a dedicated fresher, I'm actively seeking opportunities to kickstart my career in the tech industry.
+            </h4>
+            <p>Profile:<span> FullStack Web Developer</span></p>
+            <p>Education :<span>Bachelor of Engineering</span></p>
+            <p>Language :<span> English, Telugu</span></p>
+            <p>Intrests :<span> Reeding Books, Movies & Travelling.</span></p>
+            <p>Address :<span>Kphp, Hyderabad.</span></p>
+        </div>
+    </div>
+    <!-- skills  -->
+    <div class="skills" id="skills">
+        <div class="skill">
+            <h1>Technical Skills</h1>
+            <li><h3>Html <span>90%</span></h3>
+             <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>Css <span>80%</span></h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>JavaScript <span>75%</span></h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+            <li><h3>React Js <span>70%</span></h3>
+                <span class="bar"><span class="react"></span></span>
+            </li>
+            <li><h3>Python <span>80%</span></h3>
+                <span class="bar"><span class="python"></span></span>
+            </li>
+            <li><h3>Django <span>75%</span></h3>
+                <span class="bar"><span class="django"></span></span>
+            </li>
+            <li><h3>Mysql <span>70%</span></h3>
+                <span class="bar"><span class="mysql"></span></span>
+               </li>
+        </div>
+        <div class="fullstack-img">
+            <img src="https://www.the-creativeagency.co.uk/wp-content/uploads/2018/09/fullstack-logo.png" alt="fullstack-img" >
+            <img src="./python fullstack.jpg" alt="fullstack-logo">
+        </div>
+    </div>
+    <!-- projects  -->
+     <div class="projects" id="projects">
+        <h3>Projects</h3>
+
+        <div class="project">
+            <div class="project1">
+                <h4>Realtime News website</h4>
+                <h5>
+                    1.Technologies used :<span> Html,css,Javascript,React Js</span>
+                </h5>
+                <h5>2.description :<span>I have developed a real news webpage using ReactJS, designed to deliver up-to-date and accurate news content. This project showcases my ability to create responsive and user-friendly interfaces. It demonstrates my skills in modern web development technologies.
+                </span> </h5>
+                <h5>Github link: <span>https://github.com/vasu1436655/React-Real-News-Webpage</span></h5>
+            </div>
+            <div class="project2">
+                <h4>Portfolio website</h4>
+                <h5>
+                    1.Technologies used :<span> Html,css,Javascript,React Js</span>
+                </h5>
+                <h5>2.description :<span>
+                    I have also developed a personal portfolio webpage to showcase my projects and skills. This webpage, built with HTML, CSS, and JavaScript, serves as a professional platform to highlight my work and experiences in web development.
+                </span> </h5>
+                <h5>Github link: <span>https://github.com/vasu1436655/portfolio-website</span></h5>
+            </div>
+            <div class="project3">
+                <h4>Netflix Clone website</h4>
+                <h5>
+                    1.Technologies used :<span> Html,css,Javascript,React Js</span>
+                </h5>
+                <h5>2.description :<span>
+                I have created a small Netflix web clone using HTML, CSS, and JavaScript. This project highlights my proficiency in front-end development, featuring a dynamic user interface and interactive elements that replicate a real-world application.
+                </span> </h5>
+                <h5>Github link: <span>https://github.com/vasu1436655/Movieflix-project-with-search-function</span></h5>
+            </div>
+        </div>
+     </div>
+     <!-- contact  -->
+      <div class="contacts" id="contacts">
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <h3>ssvsanamp@gmail.com <i class="fa-solid fa-envelope"></i></h3>
+            <h3>+917995286655 <i class="fa-solid fa-phone"></i></h3>
+            <h3>Address  <span>: Kphp, Hyderabad,Telangana, India <i class="fa-solid fa-location-dot"></i></span></h3>
+        
+        </div>
+
+        <div class="inputs">
+            <input class="name" type="text" name="name" placeholder="Name" >
+            <textarea class="msg" type="text" name="message" placeholder="Send Me A Message..." ></textarea>
+            <button type="submit">Submit</button>
+        </div>
+      </div>
+      <!-- footer  -->
+      <footer>
+        <div class="container">
+            <p>&copy; Vasu Naidu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
